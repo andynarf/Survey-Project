@@ -4,52 +4,63 @@
     <meta charset="UTF-8">
     <title>Survey Project</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   </head>
 
 
   <body>
-    <h1 id="title">Microverse Survey Project </h1>
-    <p id="description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quae, cupiditate magnam, deserunt soluta eveniet ab similique asperiores esse rem odio quos nesciunt accusamus quam alias harum? Totam, incidunt eius!</p>
+    <div class="form-description">
+        <h1 id="title" class="title">Microverse Survey Project </h1>
+        <p id="description" class="description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quae, cupiditate magnam, deserunt soluta eveniet ab similique asperiores esse rem odio quos nesciunt accusamus quam alias harum? Totam, incidunt eius!</p>
+        
+    </div>
     
-    <form id="survey-form" > 
-      <label id="name-label"> 
-        <input id="name" placeholder='Write your name' required>
-      </label>
-      <label id="email-label">
-        <input id="email" type='email' placeholder='Write your email' required>
-      </label>
-      <label  id="number-label">
-        <input id="number" type='number' min='1'max='10' placeholder='Write your number'>
-      </label>
-      <select id="dropdown">
-        <option value="Argentina">Argentina</option>
-        <option value="Colombia">Colombia</option>
-      </select>
-      <div>
-        <input type="radio" value="male" name="gender">
-        <input type="radio" value="female" name="gender">
+    <form id="survey-form" class="form">
+      <div class="center">
+          <label id="name-label"> 
+              <input id="name" placeholder='Write your name' class="input" required>
+            </label>
+            <label id="email-label">
+              <input id="email" type='email' placeholder='Write your email' class="input" required>
+            </label>
+            <label  id="number-label">
+              <input id="number" type='number' min='1'max='10' placeholder='Write your number' class="input">
+            </label>
+            <select id="dropdown" class="space input">
+              <option class="input">Choose your country</option>
+              <option class="input" value="Argentina">Argentina</option>
+              <option class="input" value="Colombia">Colombia</option>
+            </select>
+            <div class="space input">
+              Which is your gender?
+              <br>
+              <input type="radio" value="male" name="gender">Male</input>
+              <br>
+              <input type="radio" value="female" name="gender">Female</input>
+              <br>
+              <input type="radio" value="female" name="gender">Other</input>
 
-      </div>
-      <div>\
-        <input type='checkbox' value="red">
-        <input type='checkbox' value="blue">
-        <input type='checkbox' value="green">
-        <input type='checkbox' value="yellow">
-        <input type='checkbox' value="purple">
-      </div>
-      <textarea ></textarea>
-      <input id="submit" type="submit"> 
-
-
-
-
-
-    
+      
+            </div>
+            <div class="space input">
+              Choose your favourite color:
+              <br>
+              <input type='checkbox' value="red">Red</input>
+              <br>
+              <input type='checkbox' value="blue">Blue</input>
+              <br>
+              <input type='checkbox' value="green">Green</input>
+              <br>
+              <input type='checkbox' value="yellow">Yellow</input>
+              <br>
+              <input type='checkbox' value="purple">Purple</input>
+            </div>
+            <textarea class="space input" placeholder="Write us something!"></textarea>
+            <input id="submit" type="submit" class="space btn">
+      </div> 
     </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-
     <script  src="js/index.js"></script>
   </body>
 </html>

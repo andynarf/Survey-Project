@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #CCC;
+}
+
+
+.form-description {
+    background: #706fd3;
+    padding: 2rem;
+}
+
+.title {
+    color: #FFF;
+    font-weight: 700;
+}
+
+.description {
+    color: #FFF;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    max-width: 620px;
+    opacity: .3;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+
+}
+
+.center {
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+label, .space {
+    display: block;
+    margin-top: 1rem;
+}
+
+.input {
+    padding: .5rem;
+    width: 90%;
+    border-radius: .5rem;
+    border: none;
+}
+
+select {
+    height: 2rem;
+}
+
+textarea {
+    height: 8rem;
+}
+
+.btn {
+    background: #706fd3;
+    color: #FFF;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    width: 120px;
+    border-radius: .5rem;
+
+}
+
+
+
+
+

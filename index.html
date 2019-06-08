@@ -2,25 +2,54 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Survey Project</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
+
   <body>
+    <h1 id="title">Microverse Survey Project </h1>
+    <p id="description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quae, cupiditate magnam, deserunt soluta eveniet ab similique asperiores esse rem odio quos nesciunt accusamus quam alias harum? Totam, incidunt eius!</p>
+    
+    <form id="survey-form" > 
+      <label id="name-label"> 
+        <input id="name" placeholder='Write your name'>
+      </label>
+      <label id="email-label">
+        <input id="email" type='email' placeholder='Write your email'>
+      </label>
+      <label  id="number-label">
+        <input id="number" type='number' min='1'max='10' placeholder='Write your number'>
+      </label>
+      <select id="dropdown">
+        <option value="Argentina">Argentina</option>
+        <option value="Colombia">Colombia</option>
+      </select>
+      <div>
+        <input type="radio" value="male" name="male">
+        <input type="radio" value="female" name="female">
+
+      </div>
+      <div>\
+        <input type='checkbox' value="red">
+        <input type='checkbox' value="blue">
+        <input type='checkbox' value="green">
+        <input type='checkbox' value="yellow">
+        <input type='checkbox' value="purple">
+      </div>
+      <textarea ></textarea>
+      <input id="submit" type="submit"> 
+
+
+
+
+
+    
+    </form>
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <!--
 
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script  src="js/index.js"></script>
   </body>
 </html>

@@ -20,14 +20,15 @@ body {
 .title {
     color: #FFF;
     font-weight: 700;
+    text-align: center;
 }
 
 .description {
     color: #FFF;
     margin-top: 2rem;
     font-size: 1.2rem;
-    max-width: 620px;
     opacity: .3;
+    text-align: center;
 }
 
 .form {
@@ -74,6 +75,13 @@ textarea {
     width: 120px;
     border-radius: .5rem;
 
+
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
 }
 
 
